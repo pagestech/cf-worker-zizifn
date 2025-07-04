@@ -1,0 +1,25 @@
+name = "spring"
+main = "_worker.js"
+compatibility_date = "2025-05-19"
+workers_dev = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+# PROXYIP = "nima.nscl.ir"
+# DNS_RESOLVER_URL = "https://1.1.1.1/dns-query"
+# NODE_ID = "1"
+# API_TOKEN = "example_dev_token"
+# API_HOST = "SUBAPI.cmliussss.net"
+
+# [build]
+# command = "npm run build"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
